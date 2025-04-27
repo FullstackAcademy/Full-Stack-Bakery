@@ -1,0 +1,105 @@
+html {
+  font-family: "Cookie", cursive;
+  background-image: url(https://images.unsplash.com/photo-1615557509870-98972c5e1396?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJha2VkJTIwZ29vZHN8ZW58MHx8MHx8fDA%3D);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 100px;
+}
+.H {
+  margin: 0%;
+  padding: 3px 10px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  margin: 0px;
+  display: flex;
+
+  font-size: 80px;
+  font-weight: 800;
+  color: rgb(77, 48, 6);
+  -webkit-text-stroke: 2px rgb(255, 255, 252);
+}
+.navBg a {
+  text-decoration: none;
+  color: black;
+  padding: 40px;
+}
+.navBg {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(77, 48, 6);
+  -webkit-text-stroke: 1px rgb(255, 255, 252);
+
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SideBg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(10px);
+  margin: 0px;
+  padding: 75px 25px;
+}
+.SideBut li {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 50px;
+  margin: 50px 25px;
+  background-color: rgb(252, 208, 215, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  -webkit-text-stroke: 1px rgb(255, 255, 252);
+  font-weight: 800;
+}
+article {
+  padding: 50px;
+  background-color: rgba(226, 157, 78, 0.4);
+  backdrop-filter: blur(10px);
+  font-size: 30px;
+  text-align: center;
+}
+.SubTitle {
+  -webkit-text-stroke: 2px rgb(255, 255, 252);
+  font-size: 75px;
+}
+.testimonial {
+  background-color: rgb(252, 208, 215, 0.5);
+  backdrop-filter: blur(10px);
+  font-style: italic;
+}
+footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 350px;
+  margin-right: 0px;
+  padding-left: 100px;
+
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  width: 75px;
+  height: 25px;
+  margin-right: 10px;
+}
